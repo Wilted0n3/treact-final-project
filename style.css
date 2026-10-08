@@ -125,6 +125,7 @@ nav {
     letter-spacing: 0.35px;
     color: #fff;
     line-height: 1.5;
+    white-space: nowrap;
     background-color: #6415ff;
     margin: 0;
     margin-top: 2px;
