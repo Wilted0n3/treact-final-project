@@ -467,6 +467,33 @@ STEPS ↓
   align-items: center;
 }
 
+.steps__img--wrapper, 
+.steps__description {
+  width: 50%;
+}
+
+.steps__img--wrapper {
+  display: flex;
+  position: relative;
+}
+
+.steps__img {
+  z-index: 2;
+}
+
+.steps__grid {
+  position: absolute;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 10rem;
+  bottom: -100px;
+  left: 50%;
+  opacity: 0.8;
+  color: rgb(100, 21, 255);
+  fill: currentColor;
+  z-index: -10;
+}
+
 /* 
 
 VALUES ↓
