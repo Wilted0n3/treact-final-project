@@ -494,6 +494,46 @@ STEPS ↓
   z-index: -10;
 }
 
+.steps__description {
+  padding: 32px 0 32px 64px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
+}
+
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
+}
+
+.step__title {
+  color: #243e63;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.step__para {
+  color: #718096;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+  margin-top: 14px;
+}
+
+
 /* 
 
 VALUES ↓
