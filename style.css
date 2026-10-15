@@ -885,35 +885,37 @@ TESTIMONIALS ↓
 }
 
 /* BELOW IS FROM THEIR WEBSITE TO SEE IF THAT WORKS */
-.testimonial__rating {
+/* .testimonial__rating {
   color: rgba(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
 }
 
-.fa-star {
+.fa-star path{
   color: rgb(246 173 85);
   display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
-}
+} */
+
+/* .fa-star path {
+  color: yellow;
+} */
 
 
-
-
-/* MY LAYOUT BELOW - DOESN'T WORK???? */
-/* .testimonial__rating {
-  color: rgb(249, 173, 85);
+/* MY LAYOUT BELOW - NOW WORKS ADDED PATH TO FA.STAR PATH */
+.testimonial__rating {
+  /* color: rgb(249, 173, 85); */
   margin-top: 4px;
   margin-right: 2px;
 }
 
-.fa-star {
+.fa-star path{
   color: rgb(249, 173, 85);
   display: inline-block;
   width: 1.25rem;
   height: 1.25rem;
-} */
+}
 
 .testimonial__title {
   font-size: 1.25rem;
